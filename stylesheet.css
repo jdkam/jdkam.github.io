@@ -11,3 +11,7 @@ p {
 	font-weight: bolder;
 	margin-bottom: 1rem;
 }
+
+div {
+	background-color: blue;
+}

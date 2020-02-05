@@ -10,6 +10,8 @@
     that don't come from third party libraries. This file gets compiled using
     Gulp and send to the /css folder which is then loaded on the page.
 */
+
+
 particles-js {
     position: relative;
     float: center;
@@ -255,7 +257,7 @@ footer {
 .heading {
     position: relative;
     display: inline-block;
-    font-size: 2em;
+    font-size: 3em;
     font-weight: 300;
     margin: 0 0 30px 0
 }
@@ -382,7 +384,8 @@ footer {
 
 #about p {
     color: #74808a;
-    margin: 0
+    margin: 0;
+    font-size: 16px;
 }
 
 #experience {
@@ -560,7 +563,10 @@ footer {
 }
 
 .project-image {
-    float: left
+    float: left;
+    max-width: 300px;
+    max-height: 300px;
+    
 }
 
 .project-info {
@@ -799,7 +805,7 @@ footer {
     }
 
     #about p {
-        text-align: left
+        text-align: left;
     }
 }
 

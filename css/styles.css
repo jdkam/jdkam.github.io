@@ -217,7 +217,7 @@ footer {
     display: inline-block;
     color: #fff;
     padding: 15px 25px;
-/*    border: 3px solid #fff;*/
+    /*    border: 3px solid #fff;*/
     border-radius: 0px;
     transition: .5s ease all
 }
@@ -809,7 +809,7 @@ footer {
         border-radius: 0;
         width: 100%;
         float: right;
-        
+
     }
 
     #menu li {

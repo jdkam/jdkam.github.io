@@ -111,7 +111,8 @@ header li {
 header a {
     display: block;
     color: #fff;
-    padding: 10px
+    padding: 10px;
+    font-size: 18px
 }
 
 header a:hover {
@@ -837,6 +838,7 @@ footer {
     #menu li {
         display: block;
         margin-bottom: 10px;
+        
     }
 
     #lead-content h1 {

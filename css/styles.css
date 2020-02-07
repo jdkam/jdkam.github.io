@@ -23,10 +23,6 @@ particles-js {
     z-index: 1;
 }
 
-no-particles-js {
-    position: relative;
-    display: none
-}
 
 body {
     font-family: 'Lato', sans-serif;
@@ -423,6 +419,7 @@ footer {
 
 #experience {
     padding: 50px 15px;
+    padding-bottom: 120px;
     text-align: center;
     border-bottom: 1px solid #dcd9d9
 }
@@ -578,8 +575,7 @@ footer {
 .exp-img {
     max-height: 400px;
     max-width: 400px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 30px 30px;
 }
 
 #projects {
@@ -822,6 +818,10 @@ footer {
     .vtimeline-content {
         margin-left: 70px
     }
+    
+    #lead-content {
+        margin-top: 250px;
+    }
 }
 
 @media only screen and (max-width: 992px) {
@@ -837,6 +837,10 @@ footer {
         transform: none;
         left: auto;
         top: auto
+    }
+    
+     #lead-content {
+        margin-top: 300px;
     }
 
     #lead-content h1 {

@@ -252,8 +252,37 @@ footer {
 }
 
 .shadow-large {
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08), 0 3px 6px rgba(0, 0, 0, 0.15)
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08), 0 3px 6px rgba(0, 0, 0, 0.15);
 }
+
+.shadow-large h3 {
+    font-family:sans-serif; 
+}
+
+
+.shadow-large:hover p {
+    color:#ddd;
+    transition: .6s ease-in;
+
+}
+
+.shadow-large:hover h3 {
+    color:#fff;
+    transition: .6s ease-in;
+
+}
+
+.shadow-large:hover a {
+    color: rgb(28, 157, 255);
+    transition: .6s ease-in;
+}
+
+.shadow-large:hover {
+    background-color: #222222;
+    transition: .6s ease-in;
+
+}
+
 
 .heading {
     position: relative;
@@ -288,6 +317,7 @@ footer {
     background-size: cover;
     padding: 15px;
     overflow: hidden;
+    background-attachment: fixed;
 }
 
 #lead-content {
@@ -376,17 +406,19 @@ footer {
 
 #about {
     padding: 75px 15px;
-    border-bottom: 1px solid #dcd9d9
+    border-bottom: 1px solid #dcd9d9;
+    background-color: #fff;
 }
 
 #about h2 {
-    color: #374054
+    color: #111;
 }
 
 #about p {
-    color: #74808a;
+    color: #222;
     margin: 0;
-    font-size: 16px;
+    font-size: 18px;
+    text-align:left
 }
 
 #experience {
@@ -543,12 +575,20 @@ footer {
     padding: 0 0 0 15px
 }
 
+.exp-img {
+    max-height: 400px;
+    max-width: 400px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 #projects {
     padding: 50px 15px;
     border-bottom: 1px solid #dcd9d9;
-    text-align: center
-}
+    text-align: center;
 
+}
+    
 #projects h2 {
     color: #374054;
     margin-bottom: 50px
@@ -588,7 +628,7 @@ footer {
 .project-info p {
     color: #74808a;
     margin: 0 0 15px 0;
-    font-size: 0.9em
+    font-size: 1em;
 }
 
 .no-image .project-info {
@@ -628,6 +668,11 @@ footer {
     list-style: none;
     cursor: default;
     font-size: 1.2em
+}
+
+#skills li:hover {
+    background-color: #888;
+    color:white;
 }
 
 #contact {
